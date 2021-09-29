@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Logout";
+}
+<h2>Index</h2>
+Welcome @TempData["UserName"]
+<hr />
+
+@Html.ActionLink("Logout", "SignOut", "User")

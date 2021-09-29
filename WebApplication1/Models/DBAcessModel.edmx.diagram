@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="121e76e5be1c462f9b9b524ca7ab5b85" Name="Diagram1">
+        <EntityTypeShape EntityType="DBmodelModel.AdvanceMoney" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBmodelModel.APARTMENT" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBmodelModel.DEVELOPER" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBmodelModel.RentalFlat" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="DBmodelModel.FK__AdvanceMo__Devel__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="DBmodelModel.FK__APARTMENT__Devel__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="DBmodelModel.FK__RentalFla__Devel__1CF15040" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBmodelModel.User" Width="1.5" PointX="5.375" PointY="1" />
+        <AssociationConnector Association="DBmodelModel.FK__AdvanceMo__UserI__1ED998B2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
